@@ -13,9 +13,14 @@ class Show
   end
 
   def total_salary
-    salaries = characters.inject do |salary|
+    # salaries = characters.inject do |salary|
     # return combined salaries
-    end
+
+    # salaries = []
+    @characters.salary #.each do |salary|
+      # salaries << salary.sum
+    # end
+    # return salaries
   end
 
 end
